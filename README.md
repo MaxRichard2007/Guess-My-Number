@@ -22,6 +22,8 @@ In the `Version 1` folder, you can play and enjoy the game, but the code may not
 
 In the `version2` folder, you will find an improved version of the game. The code is cleaner, and the "do not repeat" rule is respected in this version. Feel free to explore and enjoy the improvements!
 
+[Play Version 2](https://guess-my-number-version-2.netlify.app/)
+
 ## Credits
 
 Special thanks to [Jonas Schmedtmann](https://github.com/jonasschmedtmann) for his wonderful work and inspiration.
