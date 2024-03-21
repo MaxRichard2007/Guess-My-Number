@@ -16,7 +16,7 @@ To get started with the game, simply download or clone this repository to your l
 
 In the `Version 1` folder, you can play and enjoy the game, but the code may not be as optimized as it could be. Additionally, the "do not repeat" rule might not be respected in this version.
 
-<a href='https://guess-my-number-version-1.netlify.app/'>
+[Play Version 1](https://guess-my-number-version-1.netlify.app/)
 
 ### Version 2
 
