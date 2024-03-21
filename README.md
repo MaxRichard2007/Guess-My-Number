@@ -1,13 +1,29 @@
-# Guess-My-Number
+# Guess My Number
 
-Hi everyone👋<br>
-My project name (guess my number🤔).<br>
-In this game you have to guess what the secret number is?<br>
-And in this repository you can see two folders named version 1 and 2<br>
-In folder one (version 1) you can play and enjoy the game, but you have bad code, the (do not repeat) rule is not respected.<br>
-But in folder two (version 2) we have the game that you saw in version 1, but the code is much cleaner and the rule (do not repeat) is respected.<br><br>
+Welcome to Guess My Number game! This project is a simple number guessing game where you have to guess the secret number.
 
-And thanks to <a href="https://github.com/jonasschmedtmann">Jonas Schmidtman</a>
-for his wonderful work<br><br>
+## Introduction
 
-Enjoy the game🙏
+In this game, you will try to guess the secret number chosen by the computer. You will be given hints about whether your guess is too high or too low. Try to guess the number in as few attempts as possible!
+
+## Getting Started
+
+To get started with the game, simply download or clone this repository to your local machine. You will find two folders: `version1` and `version2`. Each folder contains a different version of the game.
+
+## Versions
+
+### Version 1
+
+In the `version1` folder, you can play and enjoy the game, but the code may not be as optimized as it could be. Additionally, the "do not repeat" rule might not be respected in this version.
+
+### Version 2
+
+In the `version2` folder, you will find an improved version of the game. The code is cleaner, and the "do not repeat" rule is respected in this version. Feel free to explore and enjoy the improvements!
+
+## Credits
+
+Special thanks to [Jonas Schmedtmann](https://github.com/jonasschmedtmann) for his wonderful work and inspiration.
+
+## Enjoy the Game!
+
+Feel free to play the game and have fun! If you have any questions or feedback, don't hesitate to reach out.
