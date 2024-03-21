@@ -3,6 +3,7 @@
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 
 let score = 20;
+let highscore = 0;
 
 const button = document.querySelector(".check");
 
@@ -13,11 +14,11 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".score").textContent = score;
   document.querySelector(".message").textContent = "Start guessing...";
   document.querySelector(".number").textContent = "?";
+  document.querySelector(".number").style.width = "15rem";
   document.querySelector(".guess").value = "";
 
   // css Style
   document.querySelector("body").style.backgroundColor = "#222";
-  document.querySelector(".number").style.width = "30rem";
 });
 
 document.querySelector(".check").addEventListener("click", function () {
@@ -35,6 +36,11 @@ document.querySelector(".check").addEventListener("click", function () {
     // css Style
     document.querySelector("body").style.backgroundColor = "#60b347";
     document.querySelector(".number").style.width = "30rem";
+
+    if (score > highscore) {
+      highscore = score;
+      document.querySelector(".highscore").textContent = highscore;
+    }
 
     // When guess is too height
   } else if (guess > secretNumber) {
