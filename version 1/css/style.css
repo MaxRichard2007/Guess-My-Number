@@ -117,3 +117,40 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* responsive */
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+
+  main {
+    height: 65vh;
+    top: 4rem;
+    position: relative;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  header {
+    top: 5rem;
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+    font-size: 6px;
+  }
+
+  .again {
+    top: 0;
+    background-color: #ccc;
+  }
+}
